@@ -24,3 +24,6 @@ __authors__       = [
     ]
 __license__       = 'MIT License'
 __date__          = '29-10-2016'
+__copyright__     = "Prabhat Kumar"
+__webserver__     = "http://biotools.sequomics.com/pepxpert/"
+__license__       = "http://biotools.sequomics.com/pepxpert/license.txt"
