@@ -33,3 +33,6 @@ module            = 'pepxpert'
 input_path        = 'core/source/engine'
 output_path       = 'core/source/compiled/pepxpert.js'
 # ————————————————————————————————————————————————————————————————————————————
+
+# Load required modules.
+import os
