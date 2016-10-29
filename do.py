@@ -27,3 +27,9 @@ __date__          = '29-10-2016'
 __copyright__     = "Prabhat Kumar"
 __webserver__     = "http://biotools.sequomics.com/pepxpert/"
 __license__       = "http://biotools.sequomics.com/pepxpert/license.txt"
+
+# ————————————————————————————————————————————————————————————————————————————
+module            = 'pepxpert'
+input_path        = 'core/source/engine'
+output_path       = 'core/source/compiled/pepxpert.js'
+# ————————————————————————————————————————————————————————————————————————————
