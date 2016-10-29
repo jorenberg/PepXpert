@@ -37,3 +37,4 @@ output_path       = 'core/source/compiled/pepxpert.js'
 # Load required modules.
 import os
 import sys
+import re
