@@ -89,3 +89,5 @@ def compressPepXpert(text):
 
     text = re.sub(r"('([^'\\]|\\(.|\n))*'|\"([^\"\\]|\\(.|\n))*\")", compress, text) # replace all strings.
     return text
+
+# Now, build(), stat(), and monitor() — will do all build(s) work.
