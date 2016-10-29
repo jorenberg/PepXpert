@@ -92,3 +92,9 @@ def compressPepXpert(text):
     return text
 
 # Now, build(), stat(), and monitor() — will do all build(s) work.
+
+def create():
+    if os.path.exists('core/source/compiled/'):
+        pass
+    else:
+        os.makedirs('core/source/compiled/', 0755)
