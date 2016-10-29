@@ -18,3 +18,8 @@
 #   |  -~PRABHAT~-
 # __|_____________
 # ————————————————————————————————————————————————————————————————————————————
+__authors__       = [
+    '"Prabhat Kumar" <prabhat.genome@gmail.com>',
+    '"Sequømics Corporation" <admin@sequomics.com>'
+    ]
+__license__       = 'MIT License'
