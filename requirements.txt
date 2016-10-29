@@ -1,0 +1,2 @@
+python==2.7.9
+termcolor==1.1.0
