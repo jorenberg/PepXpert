@@ -23,3 +23,4 @@ __authors__       = [
     '"Sequømics Corporation" <admin@sequomics.com>'
     ]
 __license__       = 'MIT License'
+__date__          = '29-10-2016'
