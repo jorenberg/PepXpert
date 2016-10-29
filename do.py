@@ -41,3 +41,5 @@ import re
 import time
 import tempfile
 import warnings
+
+localtime = time.asctime(time.localtime(time.time()))
