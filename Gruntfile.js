@@ -143,3 +143,22 @@ module.exports = function(grunt) {
         }
       }
     },
+    // 3. CSS --> 3.1 Lint
+    // ~~~~~~~~~~~~~~~~~~~
+    csslint: {
+      options: {
+        csslintrc: './config/rules/.csslintrc'
+      },
+      strict: {
+        options: {
+          import: 2
+        },
+        src: ['./source/core/style/**/*.css']
+      },
+      lax: {
+        options: {
+          import: false
+        },
+        src: ['./app/en/assets/style/**/*.css']
+      }
+    },
