@@ -49,3 +49,6 @@ var tag      = ['/*!', pkg.name, pkg.version, pkg.author, '*/'].join(' ');
 // ----------------------------------------------------------------------------
 
 module.exports = function(grunt) {
+  
+  // Force use of Unix newlines.
+  grunt.util.linefeed = '\n';
