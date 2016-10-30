@@ -288,3 +288,18 @@ module.exports = function(grunt) {
         src: ['app']
       }
     },
+    // 7. Localhost --> 7.1 Server
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    connect: {
+      server: {
+        options: {
+          port: 9001,
+          base: appsPath,
+          keepalive: true,
+          open: {
+            target: 'http://localhost:9001',
+            maxAge: 300000
+          }
+        }
+      }
+    },
