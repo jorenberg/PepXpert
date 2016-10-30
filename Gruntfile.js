@@ -193,3 +193,20 @@ module.exports = function(grunt) {
         }
       }
     },
+    // 4. Data --> 4.2 Minify
+    // ~~~~~~~~~~~~~~~~~~~~~~
+    minjson: {
+      compile: {
+        files: {
+          // minify two json data file.
+          './pub/data/tank/protein-sequence-data-expanded.min.json': './pub/data/raw/protein-sequence-data-expanded.json',
+          './pub/data/tank/protein-properties-data-expanded.min.json': './pub/data/raw/protein-properties-data-expanded.json',
+          // Concat/minify protein-*.json and all json files within the data -/gold/- directory,
+          // If more than one json file is matched, json will be wrapped in brackets [].
+          './pub/data/gold/protein-all.min.json': [
+            './pub/data/raw/protein-sequence-data-expanded.json',
+            './pub/data/raw/protein-properties-data-expanded.json'
+          ]
+        }
+      }
+    },
