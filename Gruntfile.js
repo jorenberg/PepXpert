@@ -42,3 +42,4 @@ var okay     = chalk.blue;
 // Global variables
 // ~~~~~~~~~~~~~~~~
 var pkg      = require('./package.json');
+var tag      = ['/*!', pkg.name, pkg.version, pkg.author, '*/'].join(' ');
