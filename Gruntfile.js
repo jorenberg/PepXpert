@@ -67,3 +67,8 @@ module.exports = function(grunt) {
   require('load-grunt-tasks')(grunt, {
     scope: ['devDependencies', 'dependencies']
   });
+  
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  // Project configuration for -//PepXpert®//- Build.
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  grunt.initConfig({
