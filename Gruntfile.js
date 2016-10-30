@@ -22,3 +22,7 @@
  * --/The Heart of Build + Test System/-- of "PepXpert®".
  * ____________________________________________________________________
  */
+
+// # Usage: $ node -v
+// # Usage: $ npm -v
+// # Usage: $ grunt -version
