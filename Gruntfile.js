@@ -57,3 +57,7 @@ module.exports = function(grunt) {
   RegExp.quote = function(string) {
     return string.replace(/[-\\^$*+?.()|[\]{}]/g, '\\$&');
   };
+  
+  // 1. time-grunt
+  // Display the elapsed execution time of grunt tasks.
+  require('time-grunt')(grunt);
