@@ -87,3 +87,16 @@ module.exports = function(grunt) {
     // 8. Development dependencies updates                                        |
     // 9. Release(s) with version updates                                         |
     // ---------------------------------------------------------------------------|
+    // 1. Assembly --> 1.1 HTML Hint
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    htmlhint: {
+      options: {
+        htmlhintrc: './config/rules/.htmlhintrc'
+      },
+      html1: {
+        src: ['./app/*.html']
+      },
+      html2: {
+        src: ['./app/en/**/*.html']
+      }
+    },
