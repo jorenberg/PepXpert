@@ -143,6 +143,18 @@ module.exports = function(grunt) {
         }
       }
     },
+    // 2. Compass + Scss Lint
+    // ~~~~~~~~~~~~~~~~~~~~~~
+    scsslint: {
+      options: {
+        bundleExec: true,
+        config: './source/core/scss/.scss-lint.yml',
+        reporterOutput: null
+      },
+      core: {
+        src: ['./source/core/scss/**/*.scss', '!source/core/scss/**/_normalize.scss']
+      }
+    },
     // 3. CSS --> 3.1 Lint
     // ~~~~~~~~~~~~~~~~~~~
     csslint: {
