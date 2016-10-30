@@ -178,3 +178,18 @@ module.exports = function(grunt) {
         }
       }
     },
+    // 4. Data --> 4.1 Lint
+    // ~~~~~~~~~~~~~~~~~~~~
+    jsonlint: {
+      all: {
+        src: [
+          './pub/data/raw/protein-sequence-data-expanded.json',
+          './pub/data/raw/protein-properties-data-expanded.json'
+        ],
+        options: {
+          formatter: 'prose',
+          format: true,
+          indent: 2
+        }
+      }
+    },
