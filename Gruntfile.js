@@ -43,3 +43,7 @@ var okay     = chalk.blue;
 // ~~~~~~~~~~~~~~~~
 var pkg      = require('./package.json');
 var tag      = ['/*!', pkg.name, pkg.version, pkg.author, '*/'].join(' ');
+
+// ----------------------------------------------------------------------------
+// All Grunt Operations Defined...  | 30/Oct/2016 | SEED™ — Rosalind.
+// ----------------------------------------------------------------------------
