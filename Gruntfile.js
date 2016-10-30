@@ -100,3 +100,24 @@ module.exports = function(grunt) {
         src: ['./app/en/**/*.html']
       }
     },
+    // 1. Assembly --> 1.2 HTML Minify
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    htmlmin: {
+      dist: {
+        options: {
+          html5: true,
+          collapseWhitespace: true,
+          conservativeCollapse: true,
+          minifyCSS: true,
+          minifyJS: true,
+          removeAttributeQuotes: true,
+          removeComments: true
+        },
+        expand: true,
+        cwd: '.',
+        dest: './build',
+        src: [
+          './app/**/*.html' // for all files in `app` directory.
+        ]
+      }
+    },
