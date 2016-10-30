@@ -38,3 +38,7 @@ var chalk    = require('chalk');
 var noop     = chalk.red;
 var yeep     = chalk.green;
 var okay     = chalk.blue;
+
+// Global variables
+// ~~~~~~~~~~~~~~~~
+var pkg      = require('./package.json');
