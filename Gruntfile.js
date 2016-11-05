@@ -44,6 +44,9 @@ var okay     = chalk.blue;
 var pkg      = require('./package.json');
 var tag      = ['/*!', pkg.name, pkg.version, pkg.author, '*/'].join(' ');
 
+// Application Path Defined.
+var appsPath = './app/';
+
 // ----------------------------------------------------------------------------
 // All Grunt Operations Defined...  | 30/Oct/2016 | SEED™ — Rosalind.
 // ----------------------------------------------------------------------------
